@@ -1,0 +1,39 @@
+.no-webp .main{
+   background-image: url(../img/header3.jpg);
+}
+
+.webp .main {
+   background-image: url(../img/header3.webp);
+}
+
+.header {
+   background-color:#00415a;
+   padding: 1 0 4rem 0;
+}
+
+.header-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+   background-position: center center;
+   background-size:cover;
+   
+ @include tablet {
+       min-height: 60rem;
+   }
+
+     
+     &.main {
+      @include tablet{
+         min-height: 75rem;
+      } 
+
+   h1{
+      text-align: left;
+      font-weight: bold;
+      color: $white;
+   }
+
+}
+}
