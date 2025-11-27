@@ -1,0 +1,15 @@
+<svg width="120" height="40" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .main { fill: #ff6b6b; font-size: 26px; font-weight: 700; letter-spacing: 1px; }
+    .subtitle { fill: #4ecdc4; font-size: 13px; font-weight: 600; letter-spacing: 2px; }
+  </style>
+  
+  <text x="100" y="28" text-anchor="middle" class="text main">B&amp;G</text>
+  <text x="100" y="45" text-anchor="middle" class="text subtitle">Party Planner</text>
+  
+  <circle cx="85" cy="15" r="2" fill="#ff6b6b"/>
+  <circle cx="115" cy="15" r="2" fill="#4ecdc4"/>
+  <circle cx="90" cy="20" r="1.5" fill="#ffd166"/>
+  <circle cx="110" cy="20" r="1.5" fill="#ffd166"/>
+</svg>
