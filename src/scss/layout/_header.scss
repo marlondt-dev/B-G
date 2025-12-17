@@ -1,9 +1,9 @@
-.no-webp .main{
-   background-image: url(../img/header3.jpg);
+.no-webp .principal{
+   background-image: url(../img/header10.jpg);
 }
 
-.webp .main {
-   background-image: url(../img/header3.webp);
+.webp .principal {
+   background-image: url(../img/header10.webp);
 }
 
 .header {
@@ -24,7 +24,7 @@
    }
 
      
-     &.main {
+     &.principal {
       @include tablet{
          min-height: 60rem;
       } 
@@ -33,6 +33,8 @@
       text-align: left;
       font-weight: bold;
       color: $white;
+      -webkit-text-stroke-width: 1px; /* Grosor del borde */
+  -webkit-text-stroke-color: black; /* Color del borde */
    }
 
 }
