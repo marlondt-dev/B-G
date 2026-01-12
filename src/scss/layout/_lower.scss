@@ -1,0 +1,82 @@
+@include tablet {
+  .lower-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+  }
+}
+
+.blog-entry {
+  margin-bottom: 4rem;
+
+  @include tablet {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+
+  .image img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 22rem;
+    object-fit: cover;
+  }
+
+  
+}
+
+
+
+.text-entry {
+
+@include tablet {
+    margin-top: 0;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: .3rem 1rem;
+  border-radius: 2rem;
+  background-color: $light-rose;
+  color: $cake-red;
+  margin-bottom: .5rem;
+  cursor: default;
+}
+
+  a {
+    color: $dark-blue;
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  h4 {
+    margin: 0;
+    line-height: 1.4;
+
+    &::after {
+       content: '';
+  display: block;
+  width: 10rem;
+  height: .3rem;
+  background-color: $cake-red;
+  margin-top: .6rem;
+    }
+  }
+
+  h4:hover  {
+  color: $cake-red;
+  transition: .3s ease-in-out;
+}
+
+  .meta {
+    font-size: 1.4rem;
+    color: #777;
+
+    span {
+      color: $cake-red;
+    }
+  }
+}
+
+

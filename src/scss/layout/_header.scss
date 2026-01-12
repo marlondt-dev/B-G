@@ -1,9 +1,9 @@
 .no-webp .principal{
-   background-image: url(../img/header10.jpg);
+   background-image: url(../img/servicio6.jpg);
 }
 
 .webp .principal {
-   background-image: url(../img/header10.webp);
+   background-image: url(../img/servicio6.webp);
 }
 
 .header {
@@ -20,21 +20,21 @@
    background-size:cover;
    
  @include tablet {
-       min-height: 60rem;
+       min-height: 55rem;
    }
 
      
      &.principal {
       @include tablet{
-         min-height: 60rem;
+         max-height: 60rem;
       } 
 
    h1{
       text-align: left;
       font-weight: bold;
       color: $white;
-      -webkit-text-stroke-width: 1px; /* Grosor del borde */
-  -webkit-text-stroke-color: black; /* Color del borde */
+      -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: black;
    }
 
 }
