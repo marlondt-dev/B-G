@@ -1,0 +1,15 @@
+.about {
+    @include tablet {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    }
+
+    img{
+         border-radius: 1rem;
+    }
+
+    &-text p{
+        margin-top: 0;
+    }
+}

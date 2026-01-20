@@ -1,0 +1,19 @@
+.cta {
+    margin-top: 4rem;
+    background-color: $dark-blue;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.cta-content {
+    h2 {
+        color: $white;
+        margin-bottom: 3rem;
+    }
+    p {
+        color: lighten($white, 10);
+        line-height: 1.6;
+    }
+
+   
+}
