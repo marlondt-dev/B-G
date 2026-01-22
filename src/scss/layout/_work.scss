@@ -9,7 +9,7 @@
 
 .steps {
     @include tablet {
-        @include grid(4, 2.5rem);
+        @include gridAuto(22rem);
     }
 }
 
