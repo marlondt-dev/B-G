@@ -9,7 +9,7 @@
 
 .values-container {
     @include tablet {
-        @include grid(3, 3rem);
+       @include gridAuto();
     }
 }
 

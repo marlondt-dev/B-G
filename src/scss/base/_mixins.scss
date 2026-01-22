@@ -36,3 +36,9 @@
         background-color: darken($bgColor, 8);
     }
 }
+
+@mixin gridAuto($size: 30rem){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($size, 1fr));
+    gap: 2rem;
+}
