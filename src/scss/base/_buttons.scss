@@ -1,4 +1,8 @@
-.service-button {
+.cakered-button {
  @include button($cake-red);
+}
+
+.blue-button {
+ @include button($dark-blue);
 }
 
