@@ -12,8 +12,8 @@ section {
 
 .card {
     display: flex;
-    flex-direction: column;   // Apilamos img + contenido
-    height: 100%;             // Todas las cards igual altura
+    flex-direction: column; 
+    height: 100%;            
     background-color: lighten($gray, 6);
     border: 1px solid darken($gray, 10);
     border-radius: 1rem;
@@ -32,7 +32,7 @@ section {
     }
 
     &-content {
-        flex: 1;                        // Esto empuja el botón hacia abajo
+        flex: 1;                      
         display: flex;
         flex-direction: column;
         padding: 2rem;
@@ -50,7 +50,7 @@ section {
             color: $davis-gray;
         }
         a {
-            margin-top: auto;          // El botón baja al fondo
+            margin-top: auto;          
         }
     }
 }
