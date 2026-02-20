@@ -5,6 +5,12 @@
 
    .footer-content {
     padding-top: $separation / 2;
+
+    .navegation {
+        overflow: visible;
+        opacity: 1;
+        max-height: none;
+    }
 }
 
 .copyright {
