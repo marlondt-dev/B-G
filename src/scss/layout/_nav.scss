@@ -13,23 +13,38 @@
 
 
 .navegation {
-    padding-bottom: 1rem;
+    max-height: 0; 
+    overflow: hidden;
+    opacity: 0;
+    flex-direction: column;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    margin-bottom: 1.5rem;
 
     @include tablet {
+        max-height: none; 
+        overflow: visible;
+        opacity: 1;
         display: flex;
+        flex-direction: row;
         align-items: center;
         padding: 0;
+        margin: 0;
     }
 
-    a{
-    color: $white;
-    font-size: 2.2rem;
-    display: block;
-    text-align: center;
-     @include tablet {
-        margin: 1.5rem;
-        font-size: 1.8rem;
+    a {
+        color: $white;
+        font-size: 2.2rem;
+        display: block;
+        text-align: center;
+        @include tablet {
+            margin: 1.5rem;
+            font-size: 1.8rem;
+            padding: 0;
+        }
     }
-    }
+}
 
+.navegation.active {
+    max-height: 30rem; 
+    opacity: 1;
 }
